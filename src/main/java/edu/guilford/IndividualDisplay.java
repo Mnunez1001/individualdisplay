@@ -20,7 +20,7 @@ public class IndividualDisplay extends Application {
         // create an instance of the IndividualPane class
         //IndividualPane is a container for the UI elements
         IndividualPane iPane = new IndividualPane();
-        scene = new Scene(iPane, 740, 680);
+        scene = new Scene(iPane, 740, 880);
         stage.setScene(scene);
         stage.show();
     }

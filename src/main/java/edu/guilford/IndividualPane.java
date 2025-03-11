@@ -108,15 +108,15 @@ public class IndividualPane extends GridPane {
 
     //create the event handler
     //this is the event handler for the button
-    public void handle(ActionEvent e) {
-        // get the text from the fields
-        String firstName = firstNameField.getText();
-        String lastName = lastNameField.getText();
-        String email = emailField.getText();
+    // public void handle(ActionEvent e) {
+    //     // get the text from the fields
+    //     String firstName = firstNameField.getText();
+    //     String lastName = lastNameField.getText();
+    //     String email = emailField.getText();
 
-        // create an individual object
-        Individual individual = new Individual(firstName, lastName, email, null);
-        // set the text of the label to the formatted name
-        formattedNameLabel.setText(individual.toString());
-    }
+    //     // create an individual object
+    //     Individual individual = new Individual(firstName, lastName, email, null);
+    //     // set the text of the label to the formatted name
+    //     formattedNameLabel.setText(individual.toString());
+    // }
 }

@@ -18,8 +18,9 @@ public class IndividualDisplay extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         // create an instance of the IndividualPane class
+        //IndividualPane is a container for the UI elements
         IndividualPane iPane = new IndividualPane();
-        scene = new Scene(iPane, 640, 480);
+        scene = new Scene(iPane, 740, 680);
         stage.setScene(scene);
         stage.show();
     }
